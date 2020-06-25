@@ -1,0 +1,59 @@
+/* pages/foodList/foodList.wxss */
+page .foodcard{
+  display: flex;
+  justify-content: left;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+  position: relative;
+}
+
+page .foodcard image{
+  width: 200rpx;
+  height: 200rpx;
+  margin-right:20rpx;
+}
+
+
+page .foodcard .foodcard-m text{
+  padding:3rpx 0;
+}
+page .foodcard .foodcard-m{
+  width: 360rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color:#999;
+  
+}
+page .foodcard .foodcard-m view{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+page .foodcard .foodcard-m .title{
+  font-size: 16px;
+  width: 100%;
+  color:black;
+  
+  
+  
+}
+page .foodcard .star{
+  color:#ccc;
+}
+page .foodcard .foodcard-r{
+  position: absolute;
+  right: 0;
+}
+page .foodcard-m-info{
+
+}
+page .foodcard  .after{
+ color: coral;
+ position: absolute;
+ left:0;
+ top:0;
+ width: 70%;
+ overflow: hidden;
+}

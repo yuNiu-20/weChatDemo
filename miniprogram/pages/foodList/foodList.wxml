@@ -1,0 +1,116 @@
+<!--pages/foodList/foodList.wxml-->
+<view class="foodcard">
+
+<view class="foodcard-l">
+
+<image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3902106409,3042380057&fm=26&gp=0.jpg" mode="aspectFill"></image>
+
+</view>
+
+
+
+<view class="foodcard-m">
+
+<view>
+<text class="title">店铺名称店铺名称店铺名称店铺名称店铺名称店铺名称v</text>
+</view>
+
+<text>电话:</text>
+<text>地址：</text>
+<text>营业时间：</text>
+
+</view>
+
+
+
+<view class="foodcard-r">
+<view class="star">
+<text class="before">★★★★★</text>
+</view>
+<view class="star">
+<text class="after">★★★★★</text>
+</view>
+</view>
+
+</view>
+
+
+
+<view class="foodcard" wx:for="{{proList}}">
+
+<view class="foodcard-l">
+
+<image src="{{item.images.small}}" mode="aspectFill"></image>
+
+</view>
+
+
+
+<view class="foodcard-m">
+
+<view>
+<text class="title">{{item.title}}</text>
+</view>
+
+<text>类型:{{item.genres}}</text>
+<text>评分：{{item.rating.average}}</text>
+<text>上映时间：{{item.year}}</text>
+
+</view>
+
+
+<view class="foodcard-r">
+<view class="star">
+<text class="before">★★★★★</text>
+</view>
+<view class="star">
+<text class="after">★★★★★</text>
+</view>
+</view>
+
+</view>
+
+
+<view class="loading" >
+<image src="../../assets/images/loading.png" mode="aspectFill"></image>
+<text>正在加载中...</text>  
+</view>
+<!-- <view class="foodcard">
+
+<view class="foodcard-l">
+
+<image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2363769678,3597086621&fm=26&gp=0.jpg" mode="aspectFill"></image>
+
+
+
+
+
+<view class="foodcard-l-info">
+
+<view>
+<text class="title">店铺名称</text>
+</view>
+
+
+
+
+<text>电话：</text>
+<text>地址：</text>
+<text>营业时间：</text>
+
+</view>
+
+</view>
+
+<view class="foodcard-r">
+<view class="star">
+<text class="before">★★★★★</text>
+</view>
+<view class="star">
+<text class="after">★★★★★</text>
+</view>
+</view>
+
+</view>
+
+ -->

@@ -1,0 +1,19 @@
+<!--pages/message/message.wxml-->
+<view class="card">
+<text class="card-title">标题</text>
+<text class="card-date">2020-06-23</text>
+<image class="card-img" src="http://img0.imgtn.bdimg.com/it/u=3890026544,1230867398&fm=26&gp=0.jpg" mode="aspectFill"></image>
+<text class="card-desc">简单描述</text>
+<text class="card-detail arrow-r">查看详情</text>
+
+</view>
+
+
+<view class="card">
+<text class="card-title">标题</text>
+<text class="card-date">2020-06-23</text>
+<image class="card-img" src="http://img0.imgtn.bdimg.com/it/u=2786389370,3906362528&fm=26&gp=0.jpg" mode="aspectFill"></image>
+<text class="card-desc">简单描述</text>
+<text class="card-detail arrow-r">查看详情</text>
+
+</view>

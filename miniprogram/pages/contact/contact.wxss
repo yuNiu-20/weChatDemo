@@ -1,0 +1,8 @@
+/* pages/contact/contact.wxss */
+page{
+  background-color: rgb(247, 245, 245);
+}
+page .info,
+page .problem{
+  margin:20rpx 0;
+}

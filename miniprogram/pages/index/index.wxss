@@ -1,0 +1,76 @@
+
+page .container{
+  width: 100%;
+}
+page swiper{
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: 300rpx;
+  
+  position: relative;
+}
+page swiper-item view{
+  width: 100%;
+}
+page swiper-item image{
+  width: 750rpx;
+  height: 300rpx;
+  
+}
+
+page .nav{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#fff; 
+
+}
+page .nav navigator{
+  display: flex;  
+  width: 33.333%;
+  height: 200rpx;
+  display: flex;  
+  justify-content: center;
+  flex-direction: column;  
+  align-items: center;
+  border-bottom: 1rpx solid #ccc;
+  border-right: 1rpx solid #ccc;
+  box-sizing: border-box;
+
+}
+page .nav navigator:nth-child(3n){
+  border-right:none;
+}
+page .nav navigator image{
+  height: 80rpx;
+  width: 80rpx;
+}
+page .nav navigator text{
+  font-size: 14px;
+}
+page .enterbox{
+   width: 100%;
+   margin: 20rpx 0;
+   padding:20rpx 0;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center ;
+   background-color:#fff; 
+}
+page .enterbox .left,
+page .enterbox .right{
+  width: 50%;
+  padding:20rpx;
+  box-sizing: border-box;
+  
+
+}
+page .enterbox image{
+  width: 100%;
+  height: 180rpx;
+  border-radius: 30rpx;
+  
+}
+page {
+  background-color:#f1f1f1;
+}

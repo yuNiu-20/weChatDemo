@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/user/user",
+    "pages/contact/contact",
+    "pages/foodList/foodList"
+    
+  ],
+  "window": {
+    "backgroundColor": "#cccccc",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FA762B",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color":"#666666",
+    "selectedColor":"#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"./assets/tabs/home.png",
+        "selectedIconPath":"./assets/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath":"./assets/tabs/message.png",
+        "selectedIconPath":"./assets/tabs/message-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath":"./assets/tabs/profile.png",
+        "selectedIconPath":"./assets/tabs/profile-active.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我",
+        "iconPath":"./assets/tabs/contact.png",
+        "selectedIconPath":"./assets/tabs/contact-active.png"
+      }
+    ]
+  }
+}
